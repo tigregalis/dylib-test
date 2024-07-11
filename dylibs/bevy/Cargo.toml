@@ -1,0 +1,10 @@
+[package]
+name = "bevy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+temporary_name = { version = "0.14", package = "bevy" }
+
+[lib]
+crate-type = ["dylib"]
